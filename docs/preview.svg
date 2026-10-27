@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="560" viewBox="0 0 860 560" role="img" aria-label="Prévia animada da Cifra de César: Veni, vidi, vici. vira Yhql, ylgl, ylfl. com deslocamento 3 e volta ao descriptografar">
+<defs>
+  <radialGradient id="g1" cx="15%" cy="0%" r="70%"><stop offset="0" stop-color="#5b8cff" stop-opacity=".32"/><stop offset="1" stop-color="#5b8cff" stop-opacity="0"/></radialGradient>
+  <radialGradient id="g2" cx="95%" cy="20%" r="60%"><stop offset="0" stop-color="#9b7bff" stop-opacity=".26"/><stop offset="1" stop-color="#9b7bff" stop-opacity="0"/></radialGradient>
+  <radialGradient id="g3" cx="40%" cy="110%" r="60%"><stop offset="0" stop-color="#ec5fb4" stop-opacity=".18"/><stop offset="1" stop-color="#ec5fb4" stop-opacity="0"/></radialGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b8cff" stop-opacity=".7"/><stop offset=".45" stop-color="#9b7bff" stop-opacity=".35"/><stop offset=".8" stop-color="#ec5fb4" stop-opacity=".1"/></linearGradient>
+  <linearGradient id="thumb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity=".07"/></linearGradient>
+  <linearGradient id="lens" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5b8cff" stop-opacity=".3"/><stop offset=".5" stop-color="#9b7bff" stop-opacity=".16"/><stop offset="1" stop-color="#ec5fb4" stop-opacity=".28"/></linearGradient>
+  <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5b8cff" stop-opacity=".14"/><stop offset="1" stop-color="#9b7bff" stop-opacity=".1"/></linearGradient>
+  <linearGradient id="fadeV" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".25" stop-color="#fff"/><stop offset=".75" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <mask id="reelMask" maskUnits="userSpaceOnUse" x="0" y="0" width="38" height="46"><rect width="38" height="46" fill="url(#fadeV)"/></mask>
+  <clipPath id="stripClip"><rect x="66" y="300" width="728" height="34"/></clipPath>
+</defs>
+<rect width="860" height="560" rx="18" fill="#06060d"/>
+<g><rect width="860" height="560" rx="18" fill="url(#g1)"/><animate attributeName="opacity" values="0.7;1;0.7" keyTimes="0;0.5;1" dur="12s" repeatCount="indefinite"/></g>
+<rect width="860" height="560" rx="18" fill="url(#g2)"/>
+<rect width="860" height="560" rx="18" fill="url(#g3)"/>
+<rect x="20" y="20" width="820" height="520" rx="22" fill="#11101f" fill-opacity=".9" stroke="#26243b"/>
+<rect x="20" y="20" width="820" height="520" rx="22" fill="none" stroke="url(#edge)"/>
+<text x="48" y="68" fill="#f3f2fa" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif" font-size="28" font-weight="700" letter-spacing="-0.8">Cifra de César</text>
+<text x="48" y="94" fill="#aeaacb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif" font-size="14">Desloque letras. Transforme mensagens.</text>
+<rect x="560" y="46" width="252" height="40" rx="12" fill="#0a0915" stroke="#26243b"/>
+<g><rect x="564" y="50" width="122" height="32" rx="9" fill="url(#thumb)" stroke="#fff" stroke-opacity=".08"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;122 0;122 0;0 0" keyTimes="0;0.48;0.53;0.96;1" calcMode="spline" keySplines="0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1" dur="12s" begin="0s" repeatCount="indefinite"/></g>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif" font-size="13" font-weight="600" text-anchor="middle">
+  <text x="625" y="71" fill="#f3f2fa">Criptografar<animate attributeName="fill" values="#f3f2fa;#f3f2fa;#8c88ad;#8c88ad;#f3f2fa" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/></text>
+  <text x="747" y="71" fill="#8c88ad">Descriptografar<animate attributeName="fill" values="#8c88ad;#8c88ad;#f3f2fa;#f3f2fa;#8c88ad" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/></text>
+</g>
+<rect x="48" y="116" width="372" height="96" rx="14" fill="#0a0915" stroke="#26243b"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif">
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="66" y="142" fill="#aeaacb" font-size="12" font-weight="600">Mensagem original</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="66" y="142" fill="#aeaacb" font-size="12" font-weight="600">Mensagem cifrada</text></g>
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="66" y="180" fill="#f3f2fa" font-size="19" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif">Veni, vidi, vici.</text></g><g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="66" y="180" fill="#f3f2fa" font-size="19" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif">Yhql, ylgl, ylfl.</text></g>
+  
+</g>
+<rect x="440" y="116" width="372" height="96" rx="14" fill="#0a0915" stroke="#26243b"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif">
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="458" y="142" fill="#aeaacb" font-size="12" font-weight="600">Resultado cifrado</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="458" y="142" fill="#aeaacb" font-size="12" font-weight="600">Resultado decifrado</text></g>
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.08;0.16;0.99;1" dur="12s" repeatCount="indefinite"/><text x="458" y="180" fill="#aeaacb" font-size="19" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif">Veni, vidi, vici.</text></g>
+     <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1;0.18;0.48;0.53;1" dur="12s" repeatCount="indefinite"/><text x="458" y="180" fill="#f3f2fa" font-size="19" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif">Yhql, ylgl, ylfl.</text></g>
+     <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="458" y="180" fill="#f3f2fa" font-size="19" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif">Veni, vidi, vici.</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><circle cx="462" cy="199" r="3" fill="#7ee2b8"/><text x="471" y="203" fill="#8c88ad" font-size="11">decodificado em Python (cifra.py)</text></g>
+</g>
+<rect x="48" y="232" width="764" height="128" rx="14" fill="#0a0915" stroke="#26243b"/>
+<text x="66" y="252" fill="#8c88ad" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif" font-size="11">Original</text>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif" font-size="11" text-anchor="end">
+  <text x="794" y="252" fill="#8c88ad">deslocamento</text>
+</g>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif" font-size="20" font-weight="700" text-anchor="end">
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.08;0.14;0.95;1" dur="12s" repeatCount="indefinite"/><text x="702" y="255" fill="#9b7bff">+0</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08;0.14;0.48;0.53;1" dur="12s" repeatCount="indefinite"/><text x="702" y="255" fill="#9b7bff">+3</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.95;1" dur="12s" repeatCount="indefinite"/><text x="702" y="255" fill="#ec5fb4">−3</text></g>
+</g>
+<rect x="655" y="262" width="26" height="74" rx="7" fill="url(#lens)" stroke="#a9bcff" stroke-opacity=".5"/>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="500" text-anchor="middle"><text x="80" y="286" fill="#aeaacb">A</text><text x="108" y="286" fill="#aeaacb">B</text><text x="136" y="286" fill="#aeaacb">C</text><text x="164" y="286" fill="#aeaacb">D</text><text x="192" y="286" fill="#aeaacb">E</text><text x="220" y="286" fill="#aeaacb">F</text><text x="248" y="286" fill="#aeaacb">G</text><text x="276" y="286" fill="#aeaacb">H</text><text x="304" y="286" fill="#aeaacb">I</text><text x="332" y="286" fill="#aeaacb">J</text><text x="360" y="286" fill="#aeaacb">K</text><text x="388" y="286" fill="#aeaacb">L</text><text x="416" y="286" fill="#aeaacb">M</text><text x="444" y="286" fill="#aeaacb">N</text><text x="472" y="286" fill="#aeaacb">O</text><text x="500" y="286" fill="#aeaacb">P</text><text x="528" y="286" fill="#aeaacb">Q</text><text x="556" y="286" fill="#aeaacb">R</text><text x="584" y="286" fill="#aeaacb">S</text><text x="612" y="286" fill="#aeaacb">T</text><text x="640" y="286" fill="#aeaacb">U</text><text x="668" y="286" fill="#fff" font-weight="700">V</text><text x="696" y="286" fill="#aeaacb">W</text><text x="724" y="286" fill="#aeaacb">X</text><text x="752" y="286" fill="#aeaacb">Y</text><text x="780" y="286" fill="#aeaacb">Z</text></g>
+<g stroke="#fff" stroke-opacity=".1"><line x1="80" y1="294" x2="80" y2="304"/><line x1="108" y1="294" x2="108" y2="304"/><line x1="136" y1="294" x2="136" y2="304"/><line x1="164" y1="294" x2="164" y2="304"/><line x1="192" y1="294" x2="192" y2="304"/><line x1="220" y1="294" x2="220" y2="304"/><line x1="248" y1="294" x2="248" y2="304"/><line x1="276" y1="294" x2="276" y2="304"/><line x1="304" y1="294" x2="304" y2="304"/><line x1="332" y1="294" x2="332" y2="304"/><line x1="360" y1="294" x2="360" y2="304"/><line x1="388" y1="294" x2="388" y2="304"/><line x1="416" y1="294" x2="416" y2="304"/><line x1="444" y1="294" x2="444" y2="304"/><line x1="472" y1="294" x2="472" y2="304"/><line x1="500" y1="294" x2="500" y2="304"/><line x1="528" y1="294" x2="528" y2="304"/><line x1="556" y1="294" x2="556" y2="304"/><line x1="584" y1="294" x2="584" y2="304"/><line x1="612" y1="294" x2="612" y2="304"/><line x1="640" y1="294" x2="640" y2="304"/><line x1="696" y1="294" x2="696" y2="304"/><line x1="724" y1="294" x2="724" y2="304"/><line x1="752" y1="294" x2="752" y2="304"/><line x1="780" y1="294" x2="780" y2="304"/></g>
+<g>
+  <path d="M668 293 v11 M664 300 l4 4 l4 -4" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <animateTransform attributeName="transform" type="rotate" values="0 668 298.5;0 668 298.5;180 668 298.5;180 668 298.5;0 668 298.5" keyTimes="0;0.48;0.53;0.96;1" calcMode="spline" keySplines="0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1" dur="12s" repeatCount="indefinite"/>
+</g>
+<g clip-path="url(#stripClip)"><g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="500" text-anchor="middle"><g><animateTransform attributeName="transform" type="translate" values="-728 0;-728 0;-812 0;-812 0;-728 0" keyTimes="0;0.07;0.22;0.92;1" calcMode="spline" keySplines="0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1" dur="12s" begin="0s" repeatCount="indefinite"/><text x="80" y="324" fill="#cfcaf0">A</text><line x1="66" y1="308" x2="66" y2="330" stroke="#ec5fb4" stroke-opacity=".5"/><text x="108" y="324" fill="#cfcaf0">B</text><text x="136" y="324" fill="#cfcaf0">C</text><text x="164" y="324" fill="#cfcaf0">D</text><text x="192" y="324" fill="#cfcaf0">E</text><text x="220" y="324" fill="#cfcaf0">F</text><text x="248" y="324" fill="#cfcaf0">G</text><text x="276" y="324" fill="#cfcaf0">H</text><text x="304" y="324" fill="#cfcaf0">I</text><text x="332" y="324" fill="#cfcaf0">J</text><text x="360" y="324" fill="#cfcaf0">K</text><text x="388" y="324" fill="#cfcaf0">L</text><text x="416" y="324" fill="#cfcaf0">M</text><text x="444" y="324" fill="#cfcaf0">N</text><text x="472" y="324" fill="#cfcaf0">O</text><text x="500" y="324" fill="#cfcaf0">P</text><text x="528" y="324" fill="#cfcaf0">Q</text><text x="556" y="324" fill="#cfcaf0">R</text><text x="584" y="324" fill="#cfcaf0">S</text><text x="612" y="324" fill="#cfcaf0">T</text><text x="640" y="324" fill="#cfcaf0">U</text><text x="668" y="324" fill="#cfcaf0">V</text><text x="696" y="324" fill="#cfcaf0">W</text><text x="724" y="324" fill="#cfcaf0">X</text><text x="752" y="324" fill="#cfcaf0">Y</text><text x="780" y="324" fill="#cfcaf0">Z</text><text x="808" y="324" fill="#cfcaf0">A</text><line x1="794" y1="308" x2="794" y2="330" stroke="#ec5fb4" stroke-opacity=".5"/><text x="836" y="324" fill="#cfcaf0">B</text><text x="864" y="324" fill="#cfcaf0">C</text><text x="892" y="324" fill="#cfcaf0">D</text><text x="920" y="324" fill="#cfcaf0">E</text><text x="948" y="324" fill="#cfcaf0">F</text><text x="976" y="324" fill="#cfcaf0">G</text><text x="1004" y="324" fill="#cfcaf0">H</text><text x="1032" y="324" fill="#cfcaf0">I</text><text x="1060" y="324" fill="#cfcaf0">J</text><text x="1088" y="324" fill="#cfcaf0">K</text><text x="1116" y="324" fill="#cfcaf0">L</text><text x="1144" y="324" fill="#cfcaf0">M</text><text x="1172" y="324" fill="#cfcaf0">N</text><text x="1200" y="324" fill="#cfcaf0">O</text><text x="1228" y="324" fill="#cfcaf0">P</text><text x="1256" y="324" fill="#cfcaf0">Q</text><text x="1284" y="324" fill="#cfcaf0">R</text><text x="1312" y="324" fill="#cfcaf0">S</text><text x="1340" y="324" fill="#cfcaf0">T</text><text x="1368" y="324" fill="#cfcaf0">U</text><text x="1396" y="324" fill="#cfcaf0">V</text><text x="1424" y="324" fill="#cfcaf0">W</text><text x="1452" y="324" fill="#cfcaf0">X</text><text x="1480" y="324" fill="#cfcaf0">Y</text><text x="1508" y="324" fill="#cfcaf0">Z</text><text x="1536" y="324" fill="#cfcaf0">A</text><line x1="1522" y1="308" x2="1522" y2="330" stroke="#ec5fb4" stroke-opacity=".5"/><text x="1564" y="324" fill="#cfcaf0">B</text><text x="1592" y="324" fill="#cfcaf0">C</text><text x="1620" y="324" fill="#cfcaf0">D</text><text x="1648" y="324" fill="#cfcaf0">E</text><text x="1676" y="324" fill="#cfcaf0">F</text><text x="1704" y="324" fill="#cfcaf0">G</text><text x="1732" y="324" fill="#cfcaf0">H</text><text x="1760" y="324" fill="#cfcaf0">I</text><text x="1788" y="324" fill="#cfcaf0">J</text><text x="1816" y="324" fill="#cfcaf0">K</text><text x="1844" y="324" fill="#cfcaf0">L</text><text x="1872" y="324" fill="#cfcaf0">M</text><text x="1900" y="324" fill="#cfcaf0">N</text><text x="1928" y="324" fill="#cfcaf0">O</text><text x="1956" y="324" fill="#cfcaf0">P</text><text x="1984" y="324" fill="#cfcaf0">Q</text><text x="2012" y="324" fill="#cfcaf0">R</text><text x="2040" y="324" fill="#cfcaf0">S</text><text x="2068" y="324" fill="#cfcaf0">T</text><text x="2096" y="324" fill="#cfcaf0">U</text><text x="2124" y="324" fill="#cfcaf0">V</text><text x="2152" y="324" fill="#cfcaf0">W</text><text x="2180" y="324" fill="#cfcaf0">X</text><text x="2208" y="324" fill="#cfcaf0">Y</text><text x="2236" y="324" fill="#cfcaf0">Z</text></g></g></g>
+<text x="66" y="350" fill="#8c88ad" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif" font-size="11">Deslocado</text>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="78" y="394" fill="#8c88ad" font-size="12">V</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="78" y="394" fill="#8c88ad" font-size="12">Y</text></g>
+  <rect x="59" y="402" width="38" height="46" rx="10" fill="url(#tile)" fill-opacity="1" stroke="#9b7bff" stroke-opacity="0.3"/>
+<svg x="59" y="402" width="38" height="46" overflow="hidden"><g mask="url(#reelMask)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -138;0 -138;0 0;0 0" keyTimes="0;0.07;0.22;0.53;0.7;1" calcMode="spline" keySplines="0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1" dur="12s" begin="0.000s" repeatCount="indefinite"/>
+    <text x="19" y="31" fill="#fff" font-size="22" font-weight="600">V</text><text x="19" y="77" fill="#fff" font-size="22" font-weight="600">W</text><text x="19" y="123" fill="#fff" font-size="22" font-weight="600">X</text><text x="19" y="169" fill="#fff" font-size="22" font-weight="600">Y</text>
+  </g></g></svg>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="122" y="394" fill="#8c88ad" font-size="12">e</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="122" y="394" fill="#8c88ad" font-size="12">h</text></g>
+  <rect x="103" y="402" width="38" height="46" rx="10" fill="url(#tile)" fill-opacity="1" stroke="#9b7bff" stroke-opacity="0.3"/>
+<svg x="103" y="402" width="38" height="46" overflow="hidden"><g mask="url(#reelMask)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -138;0 -138;0 0;0 0" keyTimes="0;0.07;0.22;0.53;0.7;1" calcMode="spline" keySplines="0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1" dur="12s" begin="0.045s" repeatCount="indefinite"/>
+    <text x="19" y="31" fill="#fff" font-size="22" font-weight="600">e</text><text x="19" y="77" fill="#fff" font-size="22" font-weight="600">f</text><text x="19" y="123" fill="#fff" font-size="22" font-weight="600">g</text><text x="19" y="169" fill="#fff" font-size="22" font-weight="600">h</text>
+  </g></g></svg>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="166" y="394" fill="#8c88ad" font-size="12">n</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="166" y="394" fill="#8c88ad" font-size="12">q</text></g>
+  <rect x="147" y="402" width="38" height="46" rx="10" fill="url(#tile)" fill-opacity="1" stroke="#9b7bff" stroke-opacity="0.3"/>
+<svg x="147" y="402" width="38" height="46" overflow="hidden"><g mask="url(#reelMask)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -138;0 -138;0 0;0 0" keyTimes="0;0.07;0.22;0.53;0.7;1" calcMode="spline" keySplines="0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1" dur="12s" begin="0.090s" repeatCount="indefinite"/>
+    <text x="19" y="31" fill="#fff" font-size="22" font-weight="600">n</text><text x="19" y="77" fill="#fff" font-size="22" font-weight="600">o</text><text x="19" y="123" fill="#fff" font-size="22" font-weight="600">p</text><text x="19" y="169" fill="#fff" font-size="22" font-weight="600">q</text>
+  </g></g></svg>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="210" y="394" fill="#8c88ad" font-size="12">i</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="210" y="394" fill="#8c88ad" font-size="12">l</text></g>
+  <rect x="191" y="402" width="38" height="46" rx="10" fill="url(#tile)" fill-opacity="1" stroke="#9b7bff" stroke-opacity="0.3"/>
+<svg x="191" y="402" width="38" height="46" overflow="hidden"><g mask="url(#reelMask)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -138;0 -138;0 0;0 0" keyTimes="0;0.07;0.22;0.53;0.7;1" calcMode="spline" keySplines="0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1" dur="12s" begin="0.135s" repeatCount="indefinite"/>
+    <text x="19" y="31" fill="#fff" font-size="22" font-weight="600">i</text><text x="19" y="77" fill="#fff" font-size="22" font-weight="600">j</text><text x="19" y="123" fill="#fff" font-size="22" font-weight="600">k</text><text x="19" y="169" fill="#fff" font-size="22" font-weight="600">l</text>
+  </g></g></svg>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="254" y="394" fill="#8c88ad" font-size="12">,</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="254" y="394" fill="#8c88ad" font-size="12">,</text></g>
+  <rect x="235" y="402" width="38" height="46" rx="10" fill="#fff" fill-opacity="0.04" stroke="#fff" stroke-opacity="0.08"/>
+<text x="254" y="433" fill="#aeaacb" font-size="20" font-weight="600">,</text>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="298" y="394" fill="#8c88ad" font-size="12">␣</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="298" y="394" fill="#8c88ad" font-size="12">␣</text></g>
+  <rect x="279" y="402" width="38" height="46" rx="10" fill="#fff" fill-opacity="0.04" stroke="#fff" stroke-opacity="0.08"/>
+<text x="298" y="433" fill="#ffffff30" font-size="20" font-weight="600">␣</text>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="342" y="394" fill="#8c88ad" font-size="12">v</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="342" y="394" fill="#8c88ad" font-size="12">y</text></g>
+  <rect x="323" y="402" width="38" height="46" rx="10" fill="url(#tile)" fill-opacity="1" stroke="#9b7bff" stroke-opacity="0.3"/>
+<svg x="323" y="402" width="38" height="46" overflow="hidden"><g mask="url(#reelMask)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -138;0 -138;0 0;0 0" keyTimes="0;0.07;0.22;0.53;0.7;1" calcMode="spline" keySplines="0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1" dur="12s" begin="0.270s" repeatCount="indefinite"/>
+    <text x="19" y="31" fill="#fff" font-size="22" font-weight="600">v</text><text x="19" y="77" fill="#fff" font-size="22" font-weight="600">w</text><text x="19" y="123" fill="#fff" font-size="22" font-weight="600">x</text><text x="19" y="169" fill="#fff" font-size="22" font-weight="600">y</text>
+  </g></g></svg>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="386" y="394" fill="#8c88ad" font-size="12">i</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="386" y="394" fill="#8c88ad" font-size="12">l</text></g>
+  <rect x="367" y="402" width="38" height="46" rx="10" fill="url(#tile)" fill-opacity="1" stroke="#9b7bff" stroke-opacity="0.3"/>
+<svg x="367" y="402" width="38" height="46" overflow="hidden"><g mask="url(#reelMask)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -138;0 -138;0 0;0 0" keyTimes="0;0.07;0.22;0.53;0.7;1" calcMode="spline" keySplines="0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1" dur="12s" begin="0.315s" repeatCount="indefinite"/>
+    <text x="19" y="31" fill="#fff" font-size="22" font-weight="600">i</text><text x="19" y="77" fill="#fff" font-size="22" font-weight="600">j</text><text x="19" y="123" fill="#fff" font-size="22" font-weight="600">k</text><text x="19" y="169" fill="#fff" font-size="22" font-weight="600">l</text>
+  </g></g></svg>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="430" y="394" fill="#8c88ad" font-size="12">d</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="430" y="394" fill="#8c88ad" font-size="12">g</text></g>
+  <rect x="411" y="402" width="38" height="46" rx="10" fill="url(#tile)" fill-opacity="1" stroke="#9b7bff" stroke-opacity="0.3"/>
+<svg x="411" y="402" width="38" height="46" overflow="hidden"><g mask="url(#reelMask)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -138;0 -138;0 0;0 0" keyTimes="0;0.07;0.22;0.53;0.7;1" calcMode="spline" keySplines="0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1" dur="12s" begin="0.360s" repeatCount="indefinite"/>
+    <text x="19" y="31" fill="#fff" font-size="22" font-weight="600">d</text><text x="19" y="77" fill="#fff" font-size="22" font-weight="600">e</text><text x="19" y="123" fill="#fff" font-size="22" font-weight="600">f</text><text x="19" y="169" fill="#fff" font-size="22" font-weight="600">g</text>
+  </g></g></svg>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="474" y="394" fill="#8c88ad" font-size="12">i</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="474" y="394" fill="#8c88ad" font-size="12">l</text></g>
+  <rect x="455" y="402" width="38" height="46" rx="10" fill="url(#tile)" fill-opacity="1" stroke="#9b7bff" stroke-opacity="0.3"/>
+<svg x="455" y="402" width="38" height="46" overflow="hidden"><g mask="url(#reelMask)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -138;0 -138;0 0;0 0" keyTimes="0;0.07;0.22;0.53;0.7;1" calcMode="spline" keySplines="0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1" dur="12s" begin="0.405s" repeatCount="indefinite"/>
+    <text x="19" y="31" fill="#fff" font-size="22" font-weight="600">i</text><text x="19" y="77" fill="#fff" font-size="22" font-weight="600">j</text><text x="19" y="123" fill="#fff" font-size="22" font-weight="600">k</text><text x="19" y="169" fill="#fff" font-size="22" font-weight="600">l</text>
+  </g></g></svg>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="518" y="394" fill="#8c88ad" font-size="12">,</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="518" y="394" fill="#8c88ad" font-size="12">,</text></g>
+  <rect x="499" y="402" width="38" height="46" rx="10" fill="#fff" fill-opacity="0.04" stroke="#fff" stroke-opacity="0.08"/>
+<text x="518" y="433" fill="#aeaacb" font-size="20" font-weight="600">,</text>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="562" y="394" fill="#8c88ad" font-size="12">␣</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="562" y="394" fill="#8c88ad" font-size="12">␣</text></g>
+  <rect x="543" y="402" width="38" height="46" rx="10" fill="#fff" fill-opacity="0.04" stroke="#fff" stroke-opacity="0.08"/>
+<text x="562" y="433" fill="#ffffff30" font-size="20" font-weight="600">␣</text>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="606" y="394" fill="#8c88ad" font-size="12">v</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="606" y="394" fill="#8c88ad" font-size="12">y</text></g>
+  <rect x="587" y="402" width="38" height="46" rx="10" fill="url(#tile)" fill-opacity="1" stroke="#9b7bff" stroke-opacity="0.3"/>
+<svg x="587" y="402" width="38" height="46" overflow="hidden"><g mask="url(#reelMask)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -138;0 -138;0 0;0 0" keyTimes="0;0.07;0.22;0.53;0.7;1" calcMode="spline" keySplines="0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1" dur="12s" begin="0.540s" repeatCount="indefinite"/>
+    <text x="19" y="31" fill="#fff" font-size="22" font-weight="600">v</text><text x="19" y="77" fill="#fff" font-size="22" font-weight="600">w</text><text x="19" y="123" fill="#fff" font-size="22" font-weight="600">x</text><text x="19" y="169" fill="#fff" font-size="22" font-weight="600">y</text>
+  </g></g></svg>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="650" y="394" fill="#8c88ad" font-size="12">i</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="650" y="394" fill="#8c88ad" font-size="12">l</text></g>
+  <rect x="631" y="402" width="38" height="46" rx="10" fill="url(#tile)" fill-opacity="1" stroke="#9b7bff" stroke-opacity="0.3"/>
+<svg x="631" y="402" width="38" height="46" overflow="hidden"><g mask="url(#reelMask)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -138;0 -138;0 0;0 0" keyTimes="0;0.07;0.22;0.53;0.7;1" calcMode="spline" keySplines="0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1" dur="12s" begin="0.585s" repeatCount="indefinite"/>
+    <text x="19" y="31" fill="#fff" font-size="22" font-weight="600">i</text><text x="19" y="77" fill="#fff" font-size="22" font-weight="600">j</text><text x="19" y="123" fill="#fff" font-size="22" font-weight="600">k</text><text x="19" y="169" fill="#fff" font-size="22" font-weight="600">l</text>
+  </g></g></svg>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="694" y="394" fill="#8c88ad" font-size="12">c</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="694" y="394" fill="#8c88ad" font-size="12">f</text></g>
+  <rect x="675" y="402" width="38" height="46" rx="10" fill="url(#tile)" fill-opacity="1" stroke="#9b7bff" stroke-opacity="0.3"/>
+<svg x="675" y="402" width="38" height="46" overflow="hidden"><g mask="url(#reelMask)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -138;0 -138;0 0;0 0" keyTimes="0;0.07;0.22;0.53;0.7;1" calcMode="spline" keySplines="0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1" dur="12s" begin="0.630s" repeatCount="indefinite"/>
+    <text x="19" y="31" fill="#fff" font-size="22" font-weight="600">c</text><text x="19" y="77" fill="#fff" font-size="22" font-weight="600">d</text><text x="19" y="123" fill="#fff" font-size="22" font-weight="600">e</text><text x="19" y="169" fill="#fff" font-size="22" font-weight="600">f</text>
+  </g></g></svg>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="738" y="394" fill="#8c88ad" font-size="12">i</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="738" y="394" fill="#8c88ad" font-size="12">l</text></g>
+  <rect x="719" y="402" width="38" height="46" rx="10" fill="url(#tile)" fill-opacity="1" stroke="#9b7bff" stroke-opacity="0.3"/>
+<svg x="719" y="402" width="38" height="46" overflow="hidden"><g mask="url(#reelMask)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -138;0 -138;0 0;0 0" keyTimes="0;0.07;0.22;0.53;0.7;1" calcMode="spline" keySplines="0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1;0.22 1 0.36 1" dur="12s" begin="0.675s" repeatCount="indefinite"/>
+    <text x="19" y="31" fill="#fff" font-size="22" font-weight="600">i</text><text x="19" y="77" fill="#fff" font-size="22" font-weight="600">j</text><text x="19" y="123" fill="#fff" font-size="22" font-weight="600">k</text><text x="19" y="169" fill="#fff" font-size="22" font-weight="600">l</text>
+  </g></g></svg>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
+  <g><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="782" y="394" fill="#8c88ad" font-size="12">.</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.53;0.96;1" dur="12s" repeatCount="indefinite"/><text x="782" y="394" fill="#8c88ad" font-size="12">.</text></g>
+  <rect x="763" y="402" width="38" height="46" rx="10" fill="#fff" fill-opacity="0.04" stroke="#fff" stroke-opacity="0.08"/>
+<text x="782" y="433" fill="#aeaacb" font-size="20" font-weight="600">.</text>
+</g>
+<text x="430" y="494" fill="#8c88ad" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif" font-size="12" text-anchor="middle">Apenas letras de A a Z são deslocadas; acentos e outros caracteres são preservados.</text>
+<text x="430" y="516" fill="#8c88ad" fill-opacity=".8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif" font-size="11" text-anchor="middle">React + TypeScript · descriptografia em Python via Pyodide · tudo no navegador</text>
+</svg>
