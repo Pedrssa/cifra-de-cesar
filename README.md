@@ -12,11 +12,11 @@ com animações que mostram cada letra percorrendo o deslocamento.
 
 ## Preview
 
-**▶ Abrir o app: https://pedrssa.github.io/cifra-de-cesar/**
+[![Abrir no GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Pedrssa/cifra-de-cesar?quickstart=1)
 
-Publicado pelo próprio repositório via GitHub Pages: a cada push no `main`, o
-workflow [`pages.yml`](.github/workflows/pages.yml) roda os testes, gera o
-build e atualiza o site.
+Clique no botão para rodar o app direto do repositório: o Codespaces instala as
+dependências, inicia o servidor e abre o preview automaticamente (cerca de 1–2 min
+na primeira vez).
 
 | Criptografar | Descriptografar (Python) |
 | --- | --- |
