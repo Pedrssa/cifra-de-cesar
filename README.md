@@ -1,9 +1,9 @@
 # Cifra de César
 
 <div align="center">
-<a href="https://raw.githack.com/Pedrssa/cifra-de-cesar/main/demo/index.html"><img src="./docs/preview.svg" width="860" alt="Prévia animada: a mensagem é criptografada letra a letra e depois descriptografada em Python" /></a>
+<a href="https://htmlpreview.github.io/?https://github.com/Pedrssa/cifra-de-cesar/blob/main/demo/index.html"><img src="./docs/preview.svg" width="860" alt="Prévia animada: a mensagem é criptografada letra a letra e depois descriptografada em Python" /></a>
 
-<h3><a href="https://raw.githack.com/Pedrssa/cifra-de-cesar/main/demo/index.html">▶ Abrir o preview interativo</a></h3>
+<h3><a href="https://htmlpreview.github.io/?https://github.com/Pedrssa/cifra-de-cesar/blob/main/demo/index.html">▶ Abrir o preview interativo</a></h3>
 <sub>Roda direto dos arquivos deste repositório (pasta <code>demo/</code>): digite, mova o slider, troque o modo.</sub>
 </div>
 
@@ -19,9 +19,9 @@ com animações que mostram cada letra percorrendo o deslocamento.
 
 ## Preview interativo
 
-**[raw.githack.com/Pedrssa/cifra-de-cesar/main/demo/index.html](https://raw.githack.com/Pedrssa/cifra-de-cesar/main/demo/index.html)**
+**[htmlpreview.github.io → demo/index.html](https://htmlpreview.github.io/?https://github.com/Pedrssa/cifra-de-cesar/blob/main/demo/index.html)**
 
-A pasta [`demo/`](demo) guarda o app já compilado; o link acima a entrega direto do
+A pasta [`demo/`](demo) guarda o app já compilado; o link acima o abre direto do
 repositório, sem servidor nem GitHub Pages. Para atualizar a demo depois de mudar o código:
 
 ```bash

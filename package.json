@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "test": "node --test src/lib/caesar.test.ts",
     "test:e2e": "node scripts/e2e.mjs",
-    "build:demo": "tsc --noEmit && vite build --outDir demo --emptyOutDir"
+    "build:demo": "tsc --noEmit && vite build --outDir demo --emptyOutDir && node scripts/inline-demo.mjs"
   },
   "dependencies": {
     "react": "^19.2.7",
