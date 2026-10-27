@@ -10,6 +10,20 @@ com animações que mostram cada letra percorrendo o deslocamento.
 
 > A cifra de César é um recurso educativo e não protege informações sensíveis.
 
+## Preview
+
+**▶ Abrir o app: https://pedrssa.github.io/cifra-de-cesar/**
+
+Publicado pelo próprio repositório via GitHub Pages: a cada push no `main`, o
+workflow [`pages.yml`](.github/workflows/pages.yml) roda os testes, gera o
+build e atualiza o site.
+
+| Criptografar | Descriptografar (Python) |
+| --- | --- |
+| ![Modo criptografar](docs/desktop.png) | ![Modo descriptografar](docs/desktop-decrypt.png) |
+
+<p align="center"><img src="docs/mobile.png" alt="Versão para celular" width="300"></p>
+
 ## Rodar
 
 ```bash
