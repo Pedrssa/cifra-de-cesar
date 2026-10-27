@@ -1,7 +1,10 @@
 # Cifra de César
 
 <div align="center">
-<img src="./docs/preview.svg" width="860" alt="Prévia animada: a mensagem é criptografada letra a letra e depois descriptografada em Python" />
+<a href="https://raw.githack.com/Pedrssa/cifra-de-cesar/main/demo/index.html"><img src="./docs/preview.svg" width="860" alt="Prévia animada: a mensagem é criptografada letra a letra e depois descriptografada em Python" /></a>
+
+<h3><a href="https://raw.githack.com/Pedrssa/cifra-de-cesar/main/demo/index.html">▶ Abrir o preview interativo</a></h3>
+<sub>Roda direto dos arquivos deste repositório (pasta <code>demo/</code>): digite, mova o slider, troque o modo.</sub>
 </div>
 
 Aplicação web para criptografar e descriptografar mensagens com a cifra de César,
@@ -14,13 +17,19 @@ com animações que mostram cada letra percorrendo o deslocamento.
 
 > A cifra de César é um recurso educativo e não protege informações sensíveis.
 
-## Rodar o app
+## Preview interativo
 
+**[raw.githack.com/Pedrssa/cifra-de-cesar/main/demo/index.html](https://raw.githack.com/Pedrssa/cifra-de-cesar/main/demo/index.html)**
+
+A pasta [`demo/`](demo) guarda o app já compilado; o link acima a entrega direto do
+repositório, sem servidor nem GitHub Pages. Para atualizar a demo depois de mudar o código:
+
+```bash
+npm run build:demo && git add demo && git commit -m "Atualiza a demo"
+```
+
+Alternativa com ambiente de desenvolvimento completo:
 [![Abrir no GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Pedrssa/cifra-de-cesar?quickstart=1)
-
-Clique no botão para rodar o app direto do repositório: o Codespaces instala as
-dependências, inicia o servidor e abre o preview automaticamente (cerca de 1–2 min
-na primeira vez).
 
 <details>
 <summary>Capturas de tela</summary>
