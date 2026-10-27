@@ -15,7 +15,9 @@ const cssFile = html.match(STYLE)?.[1];
 if (!jsFile) throw new Error('index.html sem o script esperado');
 
 // O script vai para o fim do <body>: o #root já existe quando ele roda.
-const js = read(jsFile).replace(/<\/script/gi, '<\\/script');
+// "<script" e "</script" dentro do código (o React tem "<script><\/script>" numa
+// string) confundem o parser do htmlpreview; \x3C é o mesmo "<" em JavaScript.
+const js = read(jsFile).replace(/<(\/?script)/gi, '\\x3C$1');
 html = html
   .replace(SCRIPT, '')
   .replace(STYLE, () => (cssFile ? `<style>${read(cssFile)}</style>` : ''))
